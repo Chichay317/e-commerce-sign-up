@@ -19,6 +19,6 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 export const storage = getStorage(app);
 
-// after this, go to the firebase console page, click authentication and get started. click on email/password, enable it, then click save. if you want to add another provide (maybe google), you can click on the 'add new provider' button, then enable it, choose your support email, then save
+// after this, go to the firebase console page, click authentication and get started. click on email/password, enable it, then click save. if you want to add another provide (maybe google), you can click on the 'add new provider' button, then enable it, choose your support email, then save//
 
 export default app;
